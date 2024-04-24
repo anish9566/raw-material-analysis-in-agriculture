@@ -1,0 +1,20 @@
+2015             180              280                380
+1  2016             190              290                370
+2  2017             210              310                390
+3  2018             200              300                400
+4  2019             220              280                380
+5  2020             250              320                420
+6  2021             270              330                430
+>>> 
+>>> # Display the correlation matrix
+>>> print("\nCorrelation Matrix:")
+
+Correlation Matrix:
+>>> print(expanded_df.corr())
+                       Year  Corn_Price_USD  Wheat_Price_USD  Soybean_Price_USD
+Year               1.000000        0.949158         0.711512           0.832050
+Corn_Price_USD     0.949158        1.000000         0.821661           0.878594
+Wheat_Price_USD    0.711512        0.821661         1.000000           0.898984
+Soybean_Price_USD  0.832050        0.878594         0.898984           1.000000
+>>> 
+>>> 
